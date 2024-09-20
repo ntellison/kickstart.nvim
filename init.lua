@@ -160,7 +160,7 @@ vim.opt.scrolloff = 10
 -- [[ Basic Keymaps ]]
 --  See `:help vim.keymap.set()`
 
--- Use jk to do <Esc> in Insert Mode. Quick, easy, dont have to take your fingers of the homerow.
+-- Use jk to do <Esc> in Insert Mode. Quick, easy, don't have to take your fingers of the homerow keys.
 vim.keymap.set('i', 'jk', '<Esc>')
 
 -- Clear highlights on search when pressing <Esc> in normal mode
